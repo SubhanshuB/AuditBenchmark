@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: auditbenchmark
-        image: auditprojectcr.azurecr.io/auditbenchmark865800repos:latest
+        image: containerregistrycr.azurecr.io/auditbenchmarkrepo:latest
         ports:
         - containerPort: 8080
       imagePullSecrets:
